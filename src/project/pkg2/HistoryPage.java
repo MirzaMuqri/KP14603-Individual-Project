@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package project.pkg2;
 
 import java.awt.Color;
@@ -132,13 +128,13 @@ public class HistoryPage extends JFrame {
 
                 msg += "\nExisting Conditions:";
 
-                for (String ss : split[3].split("\\|")) {
+                for (String ss : split[4].split("\\|")) {
                     msg += "\n   - " + ss;
                 }
 
                 msg += "\nEpidemiological History:";
 
-                for (String ss : split[4].split("\\|")) {
+                for (String ss : split[3].split("\\|")) {
                     msg += "\n   - " + ss;
                 }
 

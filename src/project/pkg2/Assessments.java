@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package project.pkg2;
 
 import java.io.BufferedWriter;
@@ -13,10 +8,6 @@ import java.util.List;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author MS1
- */
 public class Assessments {
 
     private String name;

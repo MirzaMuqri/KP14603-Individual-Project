@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package project.pkg2;
 
 import java.awt.Color;
@@ -18,10 +13,6 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-/**
- *
- * @author MS1
- */
 public class AssessmentPage extends JFrame {
 
     JPanel panel;
@@ -58,6 +49,7 @@ public class AssessmentPage extends JFrame {
 
         name = new JTextField(32);
         name.setBounds(10, 30, 250, 30);
+        name.setBorder(null);
 
         // Age
         ageLbl = new JLabel("Age");
@@ -66,7 +58,8 @@ public class AssessmentPage extends JFrame {
         
         age = new JTextField(32);
         age.setBounds(10, 100, 250, 30);
-
+        age.setBorder(null);
+        
         // Symptoms
         symptomsLbl = new JLabel("Do you have any of the following symptoms?");
         symptomsLbl.setBounds(10, 150, 250, 30);

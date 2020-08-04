@@ -1,11 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package project.pkg2;
 
-import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -28,7 +22,7 @@ public class WelcomePage extends JFrame {
     /*
     For reference: x coords, y coords, width, height
      */
-    public WelcomePage() {
+    public void openPage() {
         setTitle("Covid-19 Self Assessment Tool");
         setSize(432, 700);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -119,5 +113,4 @@ public class WelcomePage extends JFrame {
             }
         });
     }
-
 }
